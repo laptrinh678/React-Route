@@ -5,12 +5,12 @@ class Catenew extends Component {
     render() {
         return (
             <div>
-                danh muc tin tuc
+                danh muc thể thao
 
                 <ul>
-                    <li><Link to='/detailnew'> tin tuc 1</Link></li>
-                    <li><Link to='/detailnew'> tin tuc 1</Link></li>
-                    <li><Link to='/detailnew'> tin tuc 1</Link></li>
+                    <li><Link to='/detailnew/1'> tin thể thao 1 tuc 1</Link></li>
+                    <li><Link to='/detailnew/2'> tin thể thao 2</Link></li>
+                    <li><Link to='/detailnew/3'> tin thể thao 3</Link></li>
                 </ul>
             </div>
         );
