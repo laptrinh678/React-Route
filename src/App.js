@@ -13,7 +13,7 @@ class App extends Component {
           <Switch>
             <Route exact={true} path="/" component={Home} />
             <Route exact={true} path="/category" component={Catenew} />
-            <Route exact={true} path="/detailnew" component={New} />
+            <Route exact={true} path="/detailnew/:id" component={New} />
           </Switch>
         </Layout>
       </BrowserRouter>
