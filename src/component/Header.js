@@ -6,13 +6,13 @@ class Header extends Component {
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
                     <div className="navbar-header">
-                        <a className="navbar-brand" href="#">WebSiteName</a>
+                        <a className="navbar-brand" href="#">TinNhanh</a>
                     </div>
                     <ul className="nav navbar-nav">
-                        <li className="active"><Link to='/'>Home</Link></li>
-                        <li><Link to='/category'>category</Link></li>
-                        <li><Link to='/detailnew'>detailnew</Link></li>
-
+                        <li className="active"><Link to='/'>Trang chủ</Link></li>
+                        <li><Link to='/category'>Thể thao</Link></li>
+                        <li><Link to='/category'>Văn hóa</Link></li>
+                        <li><Link to='/category'>Bóng đá</Link></li>
                     </ul>
                 </div>
             </nav>
